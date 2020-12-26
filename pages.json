@@ -3,10 +3,17 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "休闲小游戏"
 			}
-		}
-	],
+		},
+		{
+			"path" : "pages/gobang/gobang",
+			"style": {
+					"navigationBarTitleText": "五子棋",
+					"enablePullDownRefresh": false
+				}
+			}
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
